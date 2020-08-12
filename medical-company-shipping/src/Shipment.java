@@ -11,6 +11,15 @@ public class Shipment {
 	Date deliveryDate;
 	int trackigNumber;
 	int chargeAmount;
+	String clientName;
+
+	public String getCientName() {
+		return clientName;
+	}
+
+	public void setClientName(String clientName) {
+		this.clientName = clientName;
+	}
 
 	public int getResourceId() {
 		return resourceId;
